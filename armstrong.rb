@@ -1,6 +1,7 @@
 # prg to check any number is armstrong or not.
 print "enter a number to ckeck : "
 n=gets.chomp
+puts n
 l=n.length
 n=n.to_i
 temp,sum=n,0
