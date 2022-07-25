@@ -50,9 +50,6 @@ personal_info = {
 }
 personal_info.each do |key, value|
   puts "#{key} = #{value}"
-  each do |k1, v1|
-    puts "#{k1} = #{v1}"
-  end
 end
 #p personal_info.keys
 #puts personal_info.member?("name")
